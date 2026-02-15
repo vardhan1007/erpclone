@@ -1,0 +1,166 @@
+     body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .top-bar {
+      background: #002f6c;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .top-bar img {
+      height: 40px;
+      margin-left: 10px;
+    }
+    .welcome-text {
+      margin-right: 10px;
+      font-size: 14px;
+    }
+    .pink-bar {
+      background: #ff4c83;
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .menu-bar {
+      background: orange;
+      display: flex;
+    }
+    .menu-bar div {
+      padding: 10px 20px;
+      border-right: 1px solid white;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .menu-bar div:last-child {
+      border-right: none;
+    }
+    .content {
+      padding: 20px;
+    }
+    .content p {
+      margin: 5px 0;
+    }
+    .content a {
+      display: block;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .notification-table {
+      width: 100%;
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .notification-table th, .notification-table td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    .btn-orange {
+      display: block;
+      width: fit-content;
+      padding: 5px 20px;
+      background: orange;
+      border: none;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+    .btn-orange:active {
+      transform: scale(0.98);
+    }
+    .footer-bar {
+      background: #ffcc33;
+      text-align: center;
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    hr {
+      margin: 5px 0;
+    }
+
+
+
+     body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+    }
+    .top-bar {
+      background-color: #003366; /* Dark blue */
+      color: white;
+      padding: 8px 20px;
+      font-size: 14px;
+    }
+    .top-bar span {
+      float: right;
+    }
+    .pink-bar {
+      background-color: #ff4d91; /* Pink bar */
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .menu-bar {
+      background-color: #f79800; /* ERP orange */
+      display: flex;
+      justify-content: left;
+    }
+    .menu-bar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+    .menu-bar ul li {
+      position: relative;
+    }
+    .menu-bar ul li a {
+      display: block;
+      padding: 10px 18px;
+      color: black;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 13px;
+      border-right: 1px solid #fff;
+    }
+    .menu-bar ul li:last-child a {
+      border-right: none;
+    }
+    .menu-bar ul li a:hover {
+      background-color: #ffc04d;
+    }
+    .menu-bar ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #003366;
+      min-width: 180px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .menu-bar ul li ul li a {
+      color: white;
+      padding: 8px 15px;
+      font-size: 13px;
+      border-bottom: 1px solid #4d4d4d;
+    }
+    .menu-bar ul li ul li:last-child a {
+      border-bottom: none;
+    }
+    .menu-bar ul li ul li a:hover {
+      background-color: #0059b3;
+    }
+    .menu-bar ul li:hover ul {
+      display: block;
+    }
